@@ -1,0 +1,45 @@
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+.btn-warning{
+	background-color: #009900 !important;
+	border: none;
+	/*margin-top: 20px;*/
+}
+
+.btn-warning:hover{
+	background-color: #008800 !important;
+}
+
+/*.integrity{
+	width:20px;
+}
+*/
+.integrity-picture{
+	width:40px !important;
+}
+
+.integrity-picture-active{
+	background-color: rgba(200,200,200,0.8);
+	border: double rgba(200,200,200,0.3) 2px;
+	color: white !important;
+	margin: auto;
+	text-decoration: none;
+}
+
+.integrity-content{
+	width: 100%;
+	margin: auto;
+}
